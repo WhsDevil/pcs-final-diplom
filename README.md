@@ -122,3 +122,95 @@ public class PageEntry implements Comparable<PageEntry> {
     }
 }
 ```
+# Результат работы программы
+```json
+Введите слово для поиска
+БиЗнес
+[
+  {
+    "pdfName": "Этапы оценки проекта_ понятия, методы и полезные инструменты.pdf",
+    "page": 4,
+    "count": 6
+  },
+  {
+    "pdfName": "Этапы оценки проекта_ понятия, методы и полезные инструменты.pdf",
+    "page": 12,
+    "count": 6
+  },
+  {
+    "pdfName": "Этапы оценки проекта_ понятия, методы и полезные инструменты.pdf",
+    "page": 5,
+    "count": 3
+  },
+  {
+    "pdfName": "1. DevOps_MLops.pdf",
+    "page": 5,
+    "count": 2
+  },
+  {
+    "pdfName": "Что такое блокчейн.pdf",
+    "page": 1,
+    "count": 2
+  },
+  {
+    "pdfName": "Что такое блокчейн.pdf",
+    "page": 3,
+    "count": 2
+  },
+  {
+    "pdfName": "1. DevOps_MLops.pdf",
+    "page": 3,
+    "count": 1
+  },
+  {
+    "pdfName": "1. DevOps_MLops.pdf",
+    "page": 4,
+    "count": 1
+  },
+  {
+    "pdfName": "Как управлять рисками IT-проекта.pdf",
+    "page": 2,
+    "count": 1
+  },
+  {
+    "pdfName": "Продвижение игр.pdf",
+    "page": 7,
+    "count": 1
+  },
+  {
+    "pdfName": "Что такое блокчейн.pdf",
+    "page": 2,
+    "count": 1
+  },
+  {
+    "pdfName": "Что такое блокчейн.pdf",
+    "page": 4,
+    "count": 1
+  },
+  {
+    "pdfName": "Что такое блокчейн.pdf",
+    "page": 5,
+    "count": 1
+  },
+  {
+    "pdfName": "Что такое блокчейн.pdf",
+    "page": 7,
+    "count": 1
+  },
+  {
+    "pdfName": "Что такое блокчейн.pdf",
+    "page": 9,
+    "count": 1
+  },
+  {
+    "pdfName": "Этапы оценки проекта_ понятия, методы и полезные инструменты.pdf",
+    "page": 2,
+    "count": 1
+  },
+  {
+    "pdfName": "Этапы оценки проекта_ понятия, методы и полезные инструменты.pdf",
+    "page": 11,
+    "count": 1
+  }
+]
+```
