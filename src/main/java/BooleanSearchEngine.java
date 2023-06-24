@@ -32,17 +32,18 @@ public class BooleanSearchEngine implements SearchEngine {
                 }
             }
         }
+        for (Map.Entry<String, List<PageEntry>> entry : temp_dictionary.entrySet()) {
+            List<PageEntry> sortedList = entry.getValue();
+            Collections.sort(sortedList);
+            temp_dictionary.put(entry.getKey(), sortedList);
+        }
         this.dictionary = temp_dictionary;
     }
 
     @Override
     public List<PageEntry> search(String word) {
-        for (Map.Entry<String, List<PageEntry>> entry : dictionary.entrySet()) {
-            if (entry.getKey().equals(word)) {
-                List<PageEntry> list = entry.getValue();
-                Collections.sort(list);
-                return list;
-            }
+        if (dictionary.containsKey(word)) {
+            return dictionary.get(word);
         }
         return Collections.emptyList();
     }
